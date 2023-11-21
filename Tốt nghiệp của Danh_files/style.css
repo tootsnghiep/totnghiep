@@ -1,0 +1,79 @@
+/* Custom container */
+.container-full {
+  margin: 0 auto;
+  width: 95%;
+}
+@font-face {
+	font-family: raleway;
+	src: url(../font/Raleway-Regular.ttf);
+}
+@font-face {
+	font-family: amaticsc;
+	src: url(../font/AmaticSC-Regular.ttf);
+}
+body {font-family: Arial;}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    line-height: 1;
+}.navbar-default .navbar-nav>li>a {
+    color: #000;
+    padding: 8px 130px;
+    margin: 7px 3px 0 3px ;
+}.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: rgb(253, 252, 252);
+}.carousel-caption {padding-bottom: 30%;}
+h1 {
+    font-size: 64px;
+}section#about {
+    background: #f2e1e1;
+    padding: 15px 0 60px 0px;
+}section#about p i {
+    line-height: 2;
+    color: black;
+    font-size: 20px;
+}.text {margin: 40px 10px;}
+.btn-default {
+    background: #ffd;
+    color: #180808;
+    padding: 20px;
+}#invited {
+	background: url(../images/hoaCuoi3.jpg) no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 650px;
+	color: black;
+}section#invited h1 {
+    padding: 210px 0 0 0;
+}section#wedding h1 {
+	font-size: 40px;
+	color:#757575
+}section#wedding {
+    background: #f2e1e1;
+    padding: 10px;
+}.thumbnail {
+    background: #fdd;
+    margin: 30px 0;
+	border: 1px solid #b19898;
+	padding-top: 20px;
+}section#contact h2, section#contact h4 {letter-spacing: 5px;}
+.btn-danger {
+	background: #f88078;
+	padding: 20px 60px;
+}
+.btn-success {padding: 20px 60px;}
+section#contact h4 {padding: 20px 0;}
+section#contact {
+    background: #ffdddd;
+    padding: 40px 0 50px 0;
+}.inputCome {
+	width: 90%;
+	padding: 8px;
+}footer {
+    height: 100px;
+    padding-top: 35px;
+    background: black;
+    color: #fff;
+    margin: 20px 0 55px 0 ;
+    font-family: amaticsc;
+    letter-spacing: 3px;
+}
